@@ -1,0 +1,105 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <form action=" method">
+      <!-- ตระกูลป้อน -->
+      <labal for="">ป้อนอะไรก็ได้*: </labal>
+      <input type="text" name="" id="" placeholder="ฃื่อ-นามสกุล" required />
+      <br /><br /><br />
+      <label for="">ป้อนตัวเลข: </label>
+      <input type="number" name="" id="" placeholder="อายุ" />
+      <br /><br /><br />
+      <label for="">ป้อนรหัสผ่าน: </label>
+      <input
+        type="password"
+        name=""
+        id=""
+        placeholder="ไม่ต่ำกว่า 6 ตัวอักษร"
+      />
+      <br /><br /><br />
+      <label for="">ป้อนอีเมล: </label>
+      <input type="email" name="" id="" placeholder="email.com" />
+      <br /><br /><br />
+      <label for="">ป้อนก็ได้ที่เนื้อหาเยอะๆ: </label>
+      <textarea
+        name=""
+        id=""
+        cols="30"
+        rows="5"
+        placeholder="ป้อนอะไรก็ได้"
+      ></textarea>
+      <br /><br /><br />
+      <!-- ตระกูลเลือก -->
+      <!-- ตระกูลเลือก 1 -->
+      <label for="">เพศ: </label>
+      <input type="radio" name="gender" id="" /> ชาย
+      <input type="radio" name="gender" id="" /> หญิง
+      <input type="radio" name="gender" id="" /> อื่นๆ
+      <input type="radio" name="gender" id="" checked /> ไม่ระบุ
+      <br /><br /><br />
+      <!-- ตระกูลเลื่อน หลายตัว/ dropdown, checkbox-->
+      <label for="">จังหวัดบ้านเกิด: </label>
+      <select name="" id="">
+        <option value="">กรุงเทพ</option>
+        <option value="">นนทบุรี</option>
+        <option value="">ปทุมธานี</option>
+        <option value="">สมุทรปราการ</option>
+        <option value="">สมุทรสาคร</option>
+      </select>
+      <br /><br /><br />
+      <!-- ตระกูลเลือก listbox-->
+      <label for="">Major: </label>
+      <select name="" id="" size="4">
+        <option value="">ตลาด</option>
+        <option value="">บัญชี</option>
+        <option value="">คอมพิวเตอร์</option>
+        <option value="" selected>โยธา</option>
+        <option value="">ไฟฟ้า</option>
+        <option value="">มีเดีย</option>
+      </select>
+      <br /><br /><br />
+      <!-- ตระกูลเลือก มากกว่า 1 / ไม่เลือก -->
+      <label for="">อาหารที่ชอบ: </label>
+      <input type="checkbox" name="" id="" /> kfc
+      <input type="checkbox" name="" id="" checked /> pizza
+      <input type="checkbox" name="" id="" /> oishi
+      <input type="checkbox" name="" id="" /> mcdonalds
+      <input type="checkbox" name="" id="" checked /> mk <br /><br /><br />
+      <!-- ตระกูลเลือก ประเภทไฟล์แบบไม่กรอง -->
+      <label for="">เลือกไฟล์อะไรก็ได้: </label>
+      <input type="file" name="" id="" />
+      <br /><br /><br />
+      <!-- ตระกูลเลือก ประเภทไฟล์แบบกรอง -->
+      <label for="">เลือกไฟล์รูปภาพ: </label>
+      <input type="file" name="" id="" accept="image/*" />
+      <br /><br /><br />
+      <!-- ตระกูลเลือก ประเภทไฟล์แบบเลือกกรอง -->
+      <label for="">เลือกไฟล์เอกสาร: </label>
+      <input type="file" name="" id="" accept=".doc,.docx,.pdf" />
+      <br /><br /><br />
+      <!-- ตระกูลเลือก วัน เวลา -->
+      <label for="">วันเกิด: </label>
+      <input type="date" name="" id="" />
+      <br />
+      <label for="">เวลาเกิด: </label>
+      <input type="time" name="" id="" />
+        <br />
+      <label for="">วันและเวลาเข้างาน: </label>
+      <input type="datetime-local" name="" id="" />
+      <br /><br /><br />
+        <!-- ตระกูลปุ่ม -->
+      <input type="submit" value="ตกลง/บันทึก/ลบ/แก้ไข/ยืนยัน" />
+      <br />
+      <input type="reset" value="ยกเลิก/ล้างข้อมูล/รีเซ็ต" />
+      <br />
+      <button>ตกลง/บันทึก/ลบ/แก้ไข/ยืนยัน/ยกเลิก/ล้างข้อมูล/รีเซ็ต</button>
+    </form>
+  </body>
+</html>
